@@ -1,0 +1,23 @@
+.t-container {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  /* min-height: 100vh; */
+  margin-top: 51px;
+}
+
+td.fit {
+  width: 10%;
+  min-width: fit-content;
+}
+
+.sku-image-radius {
+  border-radius: 100px;
+}
+.p-multiselect {
+  width: 100% !important;
+}
+.table{
+  text-align: center;
+}

@@ -1,0 +1,91 @@
+.right-side-slider {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    box-shadow: -2px 0 10px -8px black;
+    overflow-y: scroll;
+}
+
+.edit-details-header h6 {
+    margin: 0;
+    color: #5A3E84;
+    font-weight: 500;
+    align-self: center;
+}
+
+.edit-details-header .modal-header {
+    padding: 0.5rem;
+}
+
+.edit-details-header .modal-header .btn {
+    font-size: 1.8rem;
+    padding: 0;
+}
+
+.edit-details .close span {
+    color: #5A3E84;
+    font-size: 2rem;
+}
+
+.edit-details .modal-header .close {
+    margin: 0;
+    padding: 0;
+}
+
+/* .stakemapping-content {
+    padding: 20px 0 100px 0;
+}
+ */
+
+
+.mute-txt {
+    color: #75798A;
+}
+
+
+/* right-slider-hw CSS*/
+
+.hw-container {
+    padding: 30px 20px;
+}
+
+
+.hw-content-header {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+}
+
+.rb-job-id label {
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.rb-batch-id label,
+.hw-container label {
+    font-weight: bold;
+
+}
+
+.rs-hw-header .modal-header {
+    padding: 0 20px;
+}
+
+.rs-hw-header h6 {
+    margin: 0;
+    color: #5A3E84;
+    font-weight: 500;
+    align-self: center;
+}
+
+.rs-hw-header .modal-header .btn {
+    font-size: 1.8rem;
+    padding: 0;
+}

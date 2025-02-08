@@ -1,0 +1,107 @@
+
+
+
+.nav__link {
+    display: flex;
+    color: #75798A;
+    font-weight: 500;
+    transition: .3s;
+
+}
+
+.nav__link:hover.active-link {
+    background: #5A3E84;
+}
+
+
+.nav__link i {
+    font-size: 1.25rem;
+
+}
+
+.nav__link:hover {
+    color: var(--first-color);
+}
+
+
+/* Active Link  */
+.active-link {
+    color: #ffffff;
+    background: #0C1A60;
+}
+
+
+.active-link:hover {
+    color: #ffffff;
+}
+
+
+
+/*================== BREAKPOINTS ==================*/
+
+/*For Small devices */
+@media screen and (max-width:320px) {
+    .nav__list {
+        column-gap: 20px;
+
+    }
+
+}
+
+/* For medium devices */
+@media screen and (min-width:576px) {
+    .nav__list {
+        width: 332px;
+    }
+}
+
+@media screen and (min-width:767px) {
+
+    .side-bar {
+        position: fixed;
+        left: 0;
+        background-color: #fff;
+        box-shadow: 3px 0 6px 0 #d8dde6;
+        width: 85px;
+        height: 100vh;
+        /* padding: 1.8rem; */
+        transition: .3s;
+        z-index: 99;
+    }
+
+    .nav__link {
+        display: flex;
+        -ms-flex: 1;
+        flex: 1;
+        -ms-flex-align: center;
+        align-items: center;
+        padding: 0.8445rem 1rem;
+        text-decoration: none;
+        white-space: nowrap;
+        transition: background .25s, color .25s;
+
+    }
+
+    .nav__link .material-icons-outlined {
+        text-align: center;
+        flex: 0 0 56px;
+    }
+
+
+    .nav__content {
+        overflow: hidden;
+        height: 100%;
+    }
+
+
+    .nav__name {
+        overflow: hidden;
+    }
+
+    .side-bar:hover {
+        width: 250px;
+    }
+
+
+
+}

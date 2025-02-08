@@ -1,0 +1,37 @@
+/** sub-nav CSS Start's here **/
+
+.sub-nav {
+    border-bottom: 1.1px solid #dee2e6 !important;
+}
+
+.sub-nav .nav {
+    margin: 0 12px;
+
+}
+
+.sub-nav .nav-link {
+    position: relative;
+}
+
+.sub-nav .nav-link.active {
+    color: #232323;
+    font-weight: 500;
+}
+
+
+
+
+.sub-nav .nav-item .nav-link.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #07cff3;
+    width: 60%;
+
+}
+
+/** sub-nav CSS ends here **/

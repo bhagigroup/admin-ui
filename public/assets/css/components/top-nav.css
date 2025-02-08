@@ -1,0 +1,58 @@
+.top-nav {
+  background-color: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  height: 50px;
+}
+
+.top-nav img {
+  padding: 2px;
+  width: 85px;
+  height: 47px;
+}
+
+.org-name {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+  margin-left: 3px;
+  font-weight: 900;
+  color: #0c1a60;
+  margin-top: 3px;
+  text-transform: uppercase;
+}
+
+.top-nav a:hover {
+  color: #0c1a60;
+}
+
+.login_user_det {
+  vertical-align: middle;
+  align-self: center;
+  margin-right: 20px;
+  font-weight: 600;
+}
+
+.r-nav-top .btn {
+  background: #fecf1b;
+  padding: 4px 10px;
+  border-radius: 6px;
+  color: rgb(0, 0, 0);
+  font-weight: 600;
+  border: none;
+}
+
+.r-nav-top .dropdown-toggle::after {
+  display: none;
+}
+
+.nav-db {
+  margin-right: 20px;
+}
+.nav-db .btn {
+  background-color: #07cff3;
+  border-radius: unset;
+  color: #fff;
+}

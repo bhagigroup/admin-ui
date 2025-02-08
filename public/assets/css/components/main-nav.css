@@ -1,0 +1,84 @@
+/** main-nav CSS Start here **/
+
+.main-nav {
+    background-color: #fff;
+    width: 100%;
+    box-shadow: 3px 0 6px 0 #d8dde6;
+}
+
+
+.main-nav .nav-link {
+    text-transform: uppercase;
+    position: relative;
+
+}
+
+.main-nav .nav-link.active {
+    color: #232323;
+    font-weight: 600;
+    font-size: small;
+}
+
+.main-nav .nav-link.in-active {
+    font-weight: 600 !important;
+    font-size: small !important;
+    color: #6c757d;
+
+}
+
+
+.main-nav .nav-link.active::after {
+    content: "";
+    border-color: transparent transparent #07cff3 transparent;
+    border-style: solid;
+    border-width: 6px;
+    width: 0;
+    height: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.main-nav .nav-link:focus,
+.main-nav .nav-link:hover,
+.sub-nav .nav-link:focus,
+.sub-nav .nav-link:hover {
+    color: #232323;
+}
+
+
+
+
+/** main-nav CSS end here **/
+
+
+
+
+
+
+/** tertiary -nav CSS ends here **/
+
+.tert-nav {
+    width: 100%;
+    background-color: #fff;
+    border: 0.5px solid #EBF0F9;
+}
+
+.tert-nav .nav-item .nav-link.active {
+    background-color: #94a8cd;
+    color: rgba(0, 0, 0, 0.801);
+
+}
+
+.tert-nav .nav-item .nav-link:hover {
+    background-color: #C2D3F1;
+    color: #75798A;
+}
+
+
+
+

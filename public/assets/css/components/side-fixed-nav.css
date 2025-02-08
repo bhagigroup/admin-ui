@@ -1,0 +1,52 @@
+/** side-fixed-nav-nav CSS ends here **/
+
+/* .side-fixed-nav .nav {
+    row-gap: 15px;
+} */
+
+.side-fixed-nav .nav-item {
+    position: relative;
+}
+
+.side-fixed-nav .nav-item .nav-link.active {
+    background-color: #144296;
+    color: #fff;
+
+}
+
+.side-fixed-nav .nav-item .nav-link.active::after {
+    content: "";
+    position: absolute;
+    top: 24%;
+    left: 102%;
+    margin-left: -12px;
+    border-width: 12px;
+    border-style: solid;
+    border-color: transparent transparent transparent #427ce8;
+    z-index: 9;
+}
+
+
+
+.side-fixed-nav .nav-item .nav-link {
+    padding: 0.8rem 1rem;
+
+}
+
+
+.side-fixed-nav .nav-item .nav-link:hover {
+    background-color: #b2c3e2;
+    color: #093a58;
+}
+
+.side-fixed-nav .nav-item .nav-link:hover::after {
+    content: "";
+    position: absolute;
+    top: 24%;
+    left: 102%;
+    margin-left: -12px;
+    border-width: 12px;
+    border-style: solid;
+    border-color: transparent transparent transparent #b2c3e2;
+    z-index: 9;
+}

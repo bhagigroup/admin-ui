@@ -1,0 +1,70 @@
+.active-btn {
+    background-color: #07cff3;
+    color: #fff;
+
+}
+
+
+.in-active-btn {
+    border: 1px solid #707070;
+    color: #75798A;
+    width: 100px;
+}
+
+.active-btn:hover {
+    background-color: #07cff3;
+    color: #fff;
+}
+
+.in-active-btn:hover {
+    background-color: #75798A;
+    color: #fff;
+}
+
+
+.top-btn-content {
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+
+.date-fliter {
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.btn-space-r {
+    vertical-align: middle;
+    margin-right: 7px;
+}
+
+.top-btn-content hr {
+    border-bottom: 1.1px solid #dee2e6 !important;
+}
+
+.onboard-content hr {
+    color: #b5b5b5;
+}
+
+
+.btn-group-toggle>.btn input[type="radio"],
+.btn-group-toggle>.btn input[type="checkbox"],
+.btn-group-toggle>.btn-group>.btn input[type="radio"],
+.btn-group-toggle>.btn-group>.btn input[type="checkbox"] {
+    position: absolute;
+    clip: rect(0, 0, 0, 0);
+    pointer-events: none;
+}
+
+.total-count {
+    padding: 10px 5px;
+}
+
+
+@media (min-width: 576px) {
+    .col-sm-10m {
+        flex: 0 0 auto;
+        width: 10.66666667%;
+    }
+}
